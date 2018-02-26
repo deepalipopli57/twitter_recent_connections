@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter users </title>
+</head>
+<body>
+<h1> Top 10 recent connections</h1>
+{% for users in data %}
+    <ul>
+        <li>{{ users }}</li>
+    </ul>
+{%  endfor %}
+</body>
+</html>
